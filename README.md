@@ -23,7 +23,7 @@ How to Run the Game
 1. Install Java (JDK 17+ recommended).
 
 2. Clone the repository:
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+   git clone https://github.com/nightskaelum/2Dgame.git
 
 3. Navigate into the project folder and compile:
    javac src/Main/Main.java
