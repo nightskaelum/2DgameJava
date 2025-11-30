@@ -10,24 +10,6 @@ Features Implemented So Far
 - Player movement
 - Smooth animation system
 - Sprite loading
-
-Project Structure
-src/
- ├─ Main/
- │   ├─ GamePanel.java        # Core game loop + rendering
- │   ├─ Main.java             # Starts the game window
- │   └─ KeyHandler.java       # Player input
- │
- ├─ Entity/
- │   ├─ Entity.java           # Base entity class
- │   └─ Player.java           # Player logic + animation
- │
- ├─ Tile/
- │   ├─ Tile.java             # Tile object
- │   └─ TileManager.java      # Loads and draws the map
- │
- └─ Res/
-     └─ sprites/              # Player sprites & tiles
      
 Technologies Used
 
@@ -41,22 +23,14 @@ How to Run the Game
 1. Install Java (JDK 17+ recommended).
 
 2. Clone the repository:
-
-   ```
    git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-   ```
 
 3. Navigate into the project folder and compile:
-
-   ```
    javac src/Main/Main.java
-   ```
+   
 
 4. Run the game:
-
-   ```
    java Main.Main
-   ```
 
 Or open the project in an IDE like IntelliJ/Eclipse and run `Main.java`.
 
