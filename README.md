@@ -15,8 +15,8 @@ Technologies Used
 
 Java (JDK 17 or above)
 Java Swing / AWT for window and rendering
-BufferedImage** for sprites
-Custom game loop (`delta` or fixed FPS approach)
+BufferedImage for sprites
+Custom game loop (delta)
 
 How to Run the Game
 
